@@ -1,0 +1,74 @@
+*{
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+
+li{padding-left: 20px;}
+
+body{
+	text-align: center;
+	margin: 0;
+	line-height: 1.5 ;
+	font-family: helvetica;  
+}
+#about-me{
+	border: 3px dashed black;
+}
+#article{
+	border: 3px solid black;
+	border-radius: 3px;
+}
+.header-hr{
+	text-shadow: 0;
+	width: 65%;
+	background: white;
+	border: 0;
+	height: 2px;
+}
+#hobbies{
+	border: 3px dotted black;
+}
+#experience{
+	border:3px solid black;
+}
+#Daniel {
+	width: 100%;
+	text-transform: capitalize;
+	height: 30%;
+	background: orange;
+	text-align: center;
+	color: white;
+}  
+.header{
+	font-size: 72px;
+}
+h1{
+	font-size: 1.5em;
+
+}
+a{
+	color:inherit;
+}
+
+.links{
+	background: black;
+	font-size: 1.5em;
+	padding-top: 30px;
+	text-align: center; 
+	color: white;
+}
+footer{
+	background: lightblue;
+	font-size: 0.5em;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: rgba(119, 153, 153, 0.4);
+	text-decoration: underline;
+	
+}
+
