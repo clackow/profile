@@ -1,0 +1,218 @@
+/* Web Fonts -----------*/
+
+@font-face{
+	font-family: "Regular";
+	src: url('fonts/abolition-regular-webfont.eot');
+  	src: url('fonts/abolition-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/abolition-regular-webfont.woff') format('woff'),
+       url('fonts/abolition-regular-webfont.ttf') format('truetype');
+
+}
+
+/* Base Styles ----------*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+h2,
+h3,
+a {
+	color: #093a58;
+}
+h2,
+h3 {
+	margin-top: 0;
+}
+a {
+	text-decoration: none;
+}
+
+
+/*------header-------*/
+
+.name {
+	font-size: 1.35em;
+}
+.main-nav {
+	margin-top: 5px;
+	margin:0;
+}
+.name a,
+.links a {
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+.links a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+.links a:hover {
+	text-decoration: none;
+	color: #093a58;
+}
+.main-header{
+	text-align: center;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}  
+
+
+
+
+/*----Content----*/
+
+
+/*-----About-me--*/
+
+img{
+	width: 190px;
+}
+.myphoto{
+	border: 2px solid black;
+	border-radius: 50%;
+}
+#about-me{
+	text-align: center;
+	color: #fff;
+	background: #3acec2;
+	padding: 3.2em 0;
+	margin-bottom: 48px;
+}
+.about:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+
+
+
+/*-------A&E------*/
+.ae{
+	display: flex;	
+	flex-wrap: wrap;
+
+}
+#abilities{
+	padding-left: 20px;
+	background: lightgrey;
+	flex-grow: 2;
+}
+
+#experience{
+	padding-left: 20px;
+	flex-grow: 1;
+	background: lightblue;
+}
+
+
+
+
+
+
+
+/*-------Hobbies------*/
+
+#hobbies{
+	height: 500px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	background: ;
+	border-radius: 5px;
+	box-shadow: 0 1.5px 1.5px 0 rgba(0,0,0,0.1);
+
+}
+
+.travel, .NBA, .edm{
+	color: white;
+	flex-grow: 1;
+	margin:15px;
+	flex-basis: 200px;
+}
+.travel:hover{
+	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.1);
+}
+.travel{
+	align-self: flex-start;
+	border-radius: 10px;		
+	background: #3db5da;
+
+}
+.NBA:hover{
+	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.1);
+}
+.NBA{
+	align-self: flex-end;
+	border-radius: 10px;	
+	background: #3db5da;
+
+}
+.edm:hover{
+	box-shadow: 5px 5px 0 0 rgba(0,0,0,0.1);
+}
+.edm{
+	align-self: flex-start;
+	border-radius: 10px;
+	background: #3db5da;
+}
+
+a:link{
+	text-decoration: none;
+}
+a:hover{
+	color: #7f8996;
+	text-decoration: underline;
+}
+
+
+/*-----footer------*/
+footer{
+	background: linear-gradient(to right,rgba(215, 223, 237,0.6), rgba(122, 160, 221,0.6));
+	font-size: 0.5em;
+	text-align: center;
+
+}
+
+/* Media Query..........*/
+
+@media (min-width: 769px){
+	.main-header , .links{
+		display: flex;
+	}
+.main-header{
+	flex-direction: column;
+	align-items: center;
+	}
+}
+@media (min-width: 1025px){
+
+	.main-header{
+		width: 80%;
+		flex-direction: row;
+		padding-left: 5em;
+		justify-content: space-between;
+	}
+
+	
+}
+
+
+
+
